@@ -1,0 +1,315 @@
+html{
+    font-family: 'Sacramento', cursive;
+}
+body{
+    background: #ffe2a6;
+}
+header img{
+    width: 120px;
+    margin: auto 50px;
+    display: inline-block;
+}
+.titulo-inicial{
+    display: inline-block;
+    vertical-align: top;
+    margin: 30px 50px;
+    color: #65c4bf;
+    font-style: italic;
+    font-size: 50px;
+    font-weight: lighter;
+}
+.busqueda{
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    width: 30%;
+    vertical-align: top;
+    margin:60px 0 0 50px;
+    border-radius: 24px;
+    height: 20px;
+    border-width: 1px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+.busqueda::placeholder{
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 15px;
+}
+header svg{
+    vertical-align: top;
+    margin-top: 60px;
+}
+nav{
+    margin: 0 20% 0 15%;
+}
+nav a{
+    font-size: 2em;
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 5%;/************/
+}
+.Galeria{
+    width: 100%;
+    border: 1px solid burlywood;
+    padding: 2px;
+    border-radius: 6px;
+    background:#BF8550;
+}
+.tarjeta{
+    background: white;
+    display: inline-block;
+    width: 200px;
+    padding: 20px;
+    vertical-align: top;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    height: 420px;
+    border-radius: 4px;
+}
+.tarjeta:hover{
+    transform: scale(1.05);
+    transition: 1s;
+}
+.foto{
+    width: 100%;
+}
+.pie{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    width: 100%;
+}
+.pie a{
+    font-weight: bolder;
+    color: black;
+}
+footer{
+    background: #AF601A ;
+}
+footer p{
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-size: 22px;
+    font-weight: bolder;
+    display: inline-block;
+    margin-left: 35%;
+    margin-right: 20px;
+    vertical-align: top;
+}
+footer svg{
+    margin-top: 20px;
+    margin-right: 10px;
+}
+footer svg:hover{
+    transform: scale(1.2);
+}
+/*Empezando el CSS de la pagina veterinarios*/
+.main_vet{
+    height: auto;
+    width: 100%;
+    background: #BF8550;
+    border-radius: 6px;
+}
+.contenedor{
+    display: inline-block;
+    margin: 25px 0 10px 45px;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    font-family: 'Montserrat', sans-serif;
+    height: auto;
+    border-radius: 6px;
+}
+.card-container{
+    display: flex;
+    width: 600px;
+    height: 200px;
+    background:#fff;
+    border-radius: 6px;
+    box-shadow: 1px 1px 4px 2px rgba(0,0,0,.2) ;
+    transition: 1s;
+}
+.card-container:hover{
+    box-shadow: 1px 1px 4px 6px rgba(0,0,0,.3) ;
+}
+.header{
+    border-right: 1px solid #ddd;
+    width: 278.59px;
+}
+.descripcion_vet{
+    background: #fbfbfb;
+    border-radius: 0 6px 6px 0;
+    width: 321.41px;
+}
+.header, .descripcion_vet{
+    padding: 20px;
+    text-align: center;
+}
+.header a{
+    position: relative;
+    display: block;
+}
+.header img{
+    border-radius: 50%;
+    width: 50%;
+    box-shadow: 0 0 0 8px rgba(191,131,63,.8);
+    transition: 0.2s;
+}
+.header a:hover img{
+    box-shadow: 0 0 0 12px rgba(191,131,63,.6);
+}
+.header h3{
+    color: #f0522a;
+}
+.descripcion_vet p{
+    color: grey;
+    font-weight: bold;
+    font-size: 15px;
+}
+/*Empieza css de accesorios*/
+.boxMain{
+    height: auto;
+    width: 100%;
+    background: #BF8550;
+    border-radius: 6px;
+}
+.espacio{
+    background-color: #BF8550;
+    border-radius: 6px 6px 0 0;
+}
+.menun{
+    display: inline-block;
+    width: 20%;
+    height: auto;
+    border-radius: 6px 0 0 6px;
+}
+.ola{
+    display: inline-block;
+    width: 79.6%;
+    height: 100%;
+    vertical-align: top;
+    border-left: solid .5px white;
+}
+.menun ul{
+    list-style-type: none;
+    padding: 20px 40px;
+}
+.menun a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+.menun li{
+    margin: 0 0 10% 0;
+    border: solid .5px;
+    border-radius: 20px;
+    background-color: white;
+    text-align: center;
+    padding: 8px 0;
+}
+.menun li:hover{
+    box-shadow: 1px 1px 4px 6px rgba(44, 24, 2, 0.6) ;
+    background-color: #ddd;
+}
+.menun a:hover{
+    text-decoration: underline;
+}
+.tarjeta_collar,.tarjeta_alimento{
+    background: white;
+    display: inline-block;
+    width: 200px;
+    padding: 10px;
+    vertical-align: top;
+    margin-top: 20px;
+    margin-left: 32px;
+    margin-bottom: 5px;
+    height: 350px;
+    border-radius: 4px;
+}
+.tarjeta_collar:hover,.tarjeta_alimento:hover{
+    transform: scale(1.05);
+    transition: 1s;
+}
+.foto_collar,.foto_alimento{
+    width: 70%;
+    margin-left: 30px;
+}
+.pie_collar,.pie_alimento{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    width: 100%;
+}
+.pie_collar a,.pie_alimento a{
+    font-weight: bolder;
+    color: black;
+}
+.verMasCollares,.verMasAlimentos{
+    font-family: 'Montserrat', sans-serif;
+    text-align: right;
+    text-decoration: none;
+    width: 100%;
+    margin-left: 87%;
+    color: white;
+    font-size: 20px;
+}
+.verMasCollares,.verMasAlimentos:hover{
+    text-decoration: underline;
+}
+/******css de mas          */
+.MainEntre{
+    height: auto;
+    padding: 10px 0;
+    width: 100%;
+    background: #BF8550;
+    border-radius: 6px;
+    margin-bottom: 0;
+}
+.entretenimiento{
+    width: 100%;
+    height: 400px;
+}
+.tituloEntre{
+    margin-left: 5%;
+    height: 20px;
+    width: 300px;
+    text-align: left;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.tituloEntre p{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    padding: 4px;
+    font-weight: bold;
+    border: 1px solid black;
+    background: white;
+    border-radius: 6px;
+}
+.video{
+    margin-top: 20px;
+    margin-left: 7.5%;
+}
+.video iframe{
+    margin-right: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.video iframe:hover{
+    opacity: 60%;
+    transition: 1s;
+    transform: translateY(-3%);
+}
+#dedicatoria{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
